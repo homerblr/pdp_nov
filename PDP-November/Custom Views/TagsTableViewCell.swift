@@ -11,6 +11,7 @@ import TagListView
 class TagsTableViewCell: UITableViewCell, TagListViewDelegate {
 
     @IBOutlet weak var tagList: TagListView!
+    private var tagSelected: Bool = false
     override func awakeFromNib() {
         super.awakeFromNib()
         configure()
@@ -25,11 +26,14 @@ class TagsTableViewCell: UITableViewCell, TagListViewDelegate {
     
     }
     func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
-        print("title")
+        tagView.isSelected = !tagSelected
+        tagSelected = !tagSelected
     }
+    
     
     private func configure() {
         tagList.addTags(["American", "Turkish", "Asian", "Fast Food", "Pizza", "Ice Cream", "Shawerma"])
+        
     }
     
 }

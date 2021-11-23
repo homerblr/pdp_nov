@@ -6,8 +6,13 @@
 //
 
 import UIKit
+import Pulley
 
-class FilterViewController: UIViewController {
+class FilterViewController: UIViewController, FilterView {
+    func updateCollectionViews() {
+        //
+    }
+    
     
     enum Sections: Int, CaseIterable {
         case tags
@@ -31,11 +36,14 @@ class FilterViewController: UIViewController {
     
     @IBOutlet weak var pullView: UIView!
     
+    var presenter: FilterPresenter = FilterPresenterImplementation()
+    
     private var modelForSort: [String] = ["Top Rated", "Nearest", "Cost high to low", "Cost low to high"]
     private var modelForFilter: [String] = ["Open Now", "Credit cards", "Free delivery"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter.view = self
         self.view.backgroundColor = .clear
         tableView.register(UINib(nibName: "TagsTableViewCell", bundle: nil), forCellReuseIdentifier: "tagCell")
         tableView.register(UINib(nibName: "BaseTableViewCell", bundle: nil), forCellReuseIdentifier: "baseCell")
@@ -43,9 +51,14 @@ class FilterViewController: UIViewController {
         tableView.allowsMultipleSelection = true
         pullView.layer.cornerRadius = 3
     }
-    
+        
     
     @IBAction func doneButtonTapped(_ sender: UIButton) {
+        self.pulleyViewController?.setDrawerPosition(position: .closed, animated: true, completion: nil)
+    }
+    
+    func updateTableView() {
+        tableView.reloadData()
     }
     
 }
@@ -127,16 +140,10 @@ extension FilterViewController: UITableViewDelegate, UITableViewDataSource {
         default: break
         }
     }
-    
-//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        switch indexPath.section {
-//        case Sections.sortBy.rawValue:
-//            return CGFloat(100)
-//        case Sections.filter.rawValue:
-//            let cell = tableView.cellForRow(at: indexPath)
-//            cell?.accessoryType = .none
-//        default: break
-//        }
-//    }
 
+}
+
+extension FilterViewController: PulleyDrawerViewControllerDelegate {
+    
+    
 }

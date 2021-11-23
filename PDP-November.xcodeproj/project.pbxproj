@@ -20,6 +20,21 @@
 		CB102F43274BF76F00175A63 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F41274BF76E00175A63 /* SliderTableViewCell.swift */; };
 		CB102F44274BF76F00175A63 /* SliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB102F42274BF76F00175A63 /* SliderTableViewCell.xib */; };
 		CB102F46274BF84200175A63 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F45274BF84200175A63 /* CustomSlider.swift */; };
+		CBC4FDD4274D644300DDD2A9 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4FDD3274D644300DDD2A9 /* Binding.swift */; };
+		CBC4FDD6274D64A100DDD2A9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4FDD5274D64A100DDD2A9 /* ViewModel.swift */; };
+		CBC7BCF4274D2523007F5869 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BCF3274D2523007F5869 /* FilterView.swift */; };
+		CBC7BCF6274D2642007F5869 /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BCF5274D2642007F5869 /* FilterPresenter.swift */; };
+		CBC7BCF8274D27D8007F5869 /* FilterPresenterImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BCF7274D27D8007F5869 /* FilterPresenterImplementation.swift */; };
+		CBC7BCFA274D2A3B007F5869 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BCF9274D2A3B007F5869 /* BasePresenter.swift */; };
+		CBC7BCFC274D2AF5007F5869 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BCFB274D2AF5007F5869 /* BaseView.swift */; };
+		CBC7BD05274D3578007F5869 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BD04274D3578007F5869 /* MainView.swift */; };
+		CBC7BD07274D357F007F5869 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BD06274D357F007F5869 /* MainPresenter.swift */; };
+		CBC7BD09274D358C007F5869 /* MainPresenterImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BD08274D358C007F5869 /* MainPresenterImplementation.swift */; };
+		CBC7BD0D274D4BD9007F5869 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BD0C274D4BD9007F5869 /* View.swift */; };
+		CBC7BD0F274D4BE6007F5869 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BD0E274D4BE6007F5869 /* Interactor.swift */; };
+		CBC7BD11274D4BED007F5869 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BD10274D4BED007F5869 /* Presenter.swift */; };
+		CBC7BD13274D4BF2007F5869 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BD12274D4BF2007F5869 /* Entity.swift */; };
+		CBC7BD15274D4BF8007F5869 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BD14274D4BF8007F5869 /* Router.swift */; };
 		CBFE440627453C82000A6025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE440527453C82000A6025 /* AppDelegate.swift */; };
 		CBFE440827453C82000A6025 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE440727453C82000A6025 /* SceneDelegate.swift */; };
 		CBFE440A27453C82000A6025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE440927453C82000A6025 /* ViewController.swift */; };
@@ -47,6 +62,21 @@
 		CB102F41274BF76E00175A63 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
 		CB102F42274BF76F00175A63 /* SliderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderTableViewCell.xib; sourceTree = "<group>"; };
 		CB102F45274BF84200175A63 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		CBC4FDD3274D644300DDD2A9 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		CBC4FDD5274D64A100DDD2A9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CBC7BCF3274D2523007F5869 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		CBC7BCF5274D2642007F5869 /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
+		CBC7BCF7274D27D8007F5869 /* FilterPresenterImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenterImplementation.swift; sourceTree = "<group>"; };
+		CBC7BCF9274D2A3B007F5869 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		CBC7BCFB274D2AF5007F5869 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		CBC7BD04274D3578007F5869 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CBC7BD06274D357F007F5869 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		CBC7BD08274D358C007F5869 /* MainPresenterImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterImplementation.swift; sourceTree = "<group>"; };
+		CBC7BD0C274D4BD9007F5869 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		CBC7BD0E274D4BE6007F5869 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		CBC7BD10274D4BED007F5869 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		CBC7BD12274D4BF2007F5869 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		CBC7BD14274D4BF8007F5869 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		CBFE440227453C82000A6025 /* PDP-November.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDP-November.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFE440527453C82000A6025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBFE440727453C82000A6025 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +102,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBC4FDD7274D670500DDD2A9 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CBC4FDD3274D644300DDD2A9 /* Binding.swift */,
+				CBC4FDD5274D64A100DDD2A9 /* ViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CBC7BCFF274D2FD8007F5869 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				CBC7BD0A274D4317007F5869 /* Base */,
+				CBC7BD02274D3555007F5869 /* Filter */,
+				CBC7BD03274D355F007F5869 /* Main */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		CBC7BD00274D2FFD007F5869 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB102F3D274BEF1F00175A63 /* BaseTableViewCell.swift */,
+				CB102F3E274BEF1F00175A63 /* BaseTableViewCell.xib */,
+				CB102F39274BDC7400175A63 /* TagsTableViewCell.swift */,
+				CB102F3A274BDC7400175A63 /* TagsTableViewCell.xib */,
+				CBFE44192745472B000A6025 /* TopCollectionViewCell.swift */,
+				CB102F2B2746952B00175A63 /* BottomCollectionViewCell.swift */,
+				CB102F41274BF76E00175A63 /* SliderTableViewCell.swift */,
+				CB102F42274BF76F00175A63 /* SliderTableViewCell.xib */,
+				CB102F45274BF84200175A63 /* CustomSlider.swift */,
+				CB102F2C2746952B00175A63 /* BottomCollectionViewCell.xib */,
+				CBFE441A2745472B000A6025 /* TopCollectionViewCell.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		CBC7BD01274D3025007F5869 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBFE441D2745592E000A6025 /* VenueModel.swift */,
+				CB102F2F2746976200175A63 /* CategoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CBC7BD02274D3555007F5869 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				CBC7BCF3274D2523007F5869 /* FilterView.swift */,
+				CBC7BCF5274D2642007F5869 /* FilterPresenter.swift */,
+				CBC7BCF7274D27D8007F5869 /* FilterPresenterImplementation.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		CBC7BD03274D355F007F5869 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CBC7BD04274D3578007F5869 /* MainView.swift */,
+				CBC7BD06274D357F007F5869 /* MainPresenter.swift */,
+				CBC7BD08274D358C007F5869 /* MainPresenterImplementation.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CBC7BD0A274D4317007F5869 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CBC7BCF9274D2A3B007F5869 /* BasePresenter.swift */,
+				CBC7BCFB274D2AF5007F5869 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CBC7BD0B274D4BCF007F5869 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				CBC7BD0C274D4BD9007F5869 /* View.swift */,
+				CBC7BD0E274D4BE6007F5869 /* Interactor.swift */,
+				CBC7BD10274D4BED007F5869 /* Presenter.swift */,
+				CBC7BD12274D4BF2007F5869 /* Entity.swift */,
+				CBC7BD14274D4BF8007F5869 /* Router.swift */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
 		CBFE43F927453C81000A6025 = {
 			isa = PBXGroup;
 			children = (
@@ -95,23 +212,15 @@
 			children = (
 				CBFE440527453C82000A6025 /* AppDelegate.swift */,
 				CBFE440727453C82000A6025 /* SceneDelegate.swift */,
-				CBFE440927453C82000A6025 /* ViewController.swift */,
-				CBFE441D2745592E000A6025 /* VenueModel.swift */,
-				CB102F2F2746976200175A63 /* CategoryModel.swift */,
 				CBFE440B27453C82000A6025 /* Main.storyboard */,
+				CBFE440927453C82000A6025 /* ViewController.swift */,
 				CB102F37274BCFC300175A63 /* PulleyViewController.swift */,
 				CB102F352746B96E00175A63 /* FilterViewController.swift */,
-				CB102F3D274BEF1F00175A63 /* BaseTableViewCell.swift */,
-				CB102F3E274BEF1F00175A63 /* BaseTableViewCell.xib */,
-				CB102F39274BDC7400175A63 /* TagsTableViewCell.swift */,
-				CB102F3A274BDC7400175A63 /* TagsTableViewCell.xib */,
-				CBFE44192745472B000A6025 /* TopCollectionViewCell.swift */,
-				CB102F2B2746952B00175A63 /* BottomCollectionViewCell.swift */,
-				CB102F41274BF76E00175A63 /* SliderTableViewCell.swift */,
-				CB102F42274BF76F00175A63 /* SliderTableViewCell.xib */,
-				CB102F45274BF84200175A63 /* CustomSlider.swift */,
-				CB102F2C2746952B00175A63 /* BottomCollectionViewCell.xib */,
-				CBFE441A2745472B000A6025 /* TopCollectionViewCell.xib */,
+				CBC7BD01274D3025007F5869 /* Models */,
+				CBC4FDD7274D670500DDD2A9 /* MVVM */,
+				CBC7BD0B274D4BCF007F5869 /* VIPER */,
+				CBC7BCFF274D2FD8007F5869 /* MVP */,
+				CBC7BD00274D2FFD007F5869 /* Custom Views */,
 				CBFE440E27453C85000A6025 /* Assets.xcassets */,
 				CBFE441027453C85000A6025 /* LaunchScreen.storyboard */,
 				CBFE441327453C85000A6025 /* Info.plist */,
@@ -256,18 +365,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC7BCF4274D2523007F5869 /* FilterView.swift in Sources */,
 				CBFE441B2745472B000A6025 /* TopCollectionViewCell.swift in Sources */,
+				CBC7BCF8274D27D8007F5869 /* FilterPresenterImplementation.swift in Sources */,
+				CBC7BD09274D358C007F5869 /* MainPresenterImplementation.swift in Sources */,
+				CBC4FDD4274D644300DDD2A9 /* Binding.swift in Sources */,
+				CBC7BD15274D4BF8007F5869 /* Router.swift in Sources */,
+				CBC4FDD6274D64A100DDD2A9 /* ViewModel.swift in Sources */,
 				CB102F38274BCFC300175A63 /* PulleyViewController.swift in Sources */,
+				CBC7BCF6274D2642007F5869 /* FilterPresenter.swift in Sources */,
+				CBC7BD0F274D4BE6007F5869 /* Interactor.swift in Sources */,
 				CB102F3B274BDC7400175A63 /* TagsTableViewCell.swift in Sources */,
 				CBFE440A27453C82000A6025 /* ViewController.swift in Sources */,
 				CBFE441E2745592E000A6025 /* VenueModel.swift in Sources */,
+				CBC7BD13274D4BF2007F5869 /* Entity.swift in Sources */,
+				CBC7BD0D274D4BD9007F5869 /* View.swift in Sources */,
 				CB102F3F274BEF1F00175A63 /* BaseTableViewCell.swift in Sources */,
 				CB102F362746B96E00175A63 /* FilterViewController.swift in Sources */,
+				CBC7BD11274D4BED007F5869 /* Presenter.swift in Sources */,
 				CB102F2D2746952B00175A63 /* BottomCollectionViewCell.swift in Sources */,
 				CB102F302746976200175A63 /* CategoryModel.swift in Sources */,
+				CBC7BD05274D3578007F5869 /* MainView.swift in Sources */,
 				CBFE440627453C82000A6025 /* AppDelegate.swift in Sources */,
+				CBC7BCFA274D2A3B007F5869 /* BasePresenter.swift in Sources */,
 				CB102F46274BF84200175A63 /* CustomSlider.swift in Sources */,
+				CBC7BCFC274D2AF5007F5869 /* BaseView.swift in Sources */,
 				CB102F43274BF76F00175A63 /* SliderTableViewCell.swift in Sources */,
+				CBC7BD07274D357F007F5869 /* MainPresenter.swift in Sources */,
 				CBFE440827453C82000A6025 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

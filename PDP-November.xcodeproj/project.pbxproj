@@ -7,15 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2DB8A93928FE784E9B525B /* Pods_PDP_November.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA5D6969A341A33E8AF19DE /* Pods_PDP_November.framework */; };
+		CB102F2D2746952B00175A63 /* BottomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F2B2746952B00175A63 /* BottomCollectionViewCell.swift */; };
+		CB102F2E2746952B00175A63 /* BottomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB102F2C2746952B00175A63 /* BottomCollectionViewCell.xib */; };
+		CB102F302746976200175A63 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F2F2746976200175A63 /* CategoryModel.swift */; };
+		CB102F362746B96E00175A63 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F352746B96E00175A63 /* FilterViewController.swift */; };
+		CB102F38274BCFC300175A63 /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F37274BCFC300175A63 /* PulleyViewController.swift */; };
+		CB102F3B274BDC7400175A63 /* TagsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F39274BDC7400175A63 /* TagsTableViewCell.swift */; };
+		CB102F3C274BDC7400175A63 /* TagsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB102F3A274BDC7400175A63 /* TagsTableViewCell.xib */; };
+		CB102F3F274BEF1F00175A63 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F3D274BEF1F00175A63 /* BaseTableViewCell.swift */; };
+		CB102F40274BEF1F00175A63 /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB102F3E274BEF1F00175A63 /* BaseTableViewCell.xib */; };
+		CB102F43274BF76F00175A63 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F41274BF76E00175A63 /* SliderTableViewCell.swift */; };
+		CB102F44274BF76F00175A63 /* SliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB102F42274BF76F00175A63 /* SliderTableViewCell.xib */; };
+		CB102F46274BF84200175A63 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F45274BF84200175A63 /* CustomSlider.swift */; };
 		CBFE440627453C82000A6025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE440527453C82000A6025 /* AppDelegate.swift */; };
 		CBFE440827453C82000A6025 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE440727453C82000A6025 /* SceneDelegate.swift */; };
 		CBFE440A27453C82000A6025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE440927453C82000A6025 /* ViewController.swift */; };
 		CBFE440D27453C82000A6025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFE440B27453C82000A6025 /* Main.storyboard */; };
 		CBFE440F27453C85000A6025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFE440E27453C85000A6025 /* Assets.xcassets */; };
 		CBFE441227453C85000A6025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFE441027453C85000A6025 /* LaunchScreen.storyboard */; };
+		CBFE441B2745472B000A6025 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE44192745472B000A6025 /* TopCollectionViewCell.swift */; };
+		CBFE441C2745472B000A6025 /* TopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFE441A2745472B000A6025 /* TopCollectionViewCell.xib */; };
+		CBFE441E2745592E000A6025 /* VenueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE441D2745592E000A6025 /* VenueModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F869287AF7DE204833DE09C /* Pods-PDP-November.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDP-November.debug.xcconfig"; path = "Target Support Files/Pods-PDP-November/Pods-PDP-November.debug.xcconfig"; sourceTree = "<group>"; };
+		252057C6C5B982E48206F650 /* Pods-PDP-November.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDP-November.release.xcconfig"; path = "Target Support Files/Pods-PDP-November/Pods-PDP-November.release.xcconfig"; sourceTree = "<group>"; };
+		9CA5D6969A341A33E8AF19DE /* Pods_PDP_November.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDP_November.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB102F2B2746952B00175A63 /* BottomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCollectionViewCell.swift; sourceTree = "<group>"; };
+		CB102F2C2746952B00175A63 /* BottomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomCollectionViewCell.xib; sourceTree = "<group>"; };
+		CB102F2F2746976200175A63 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		CB102F352746B96E00175A63 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		CB102F37274BCFC300175A63 /* PulleyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulleyViewController.swift; sourceTree = "<group>"; };
+		CB102F39274BDC7400175A63 /* TagsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsTableViewCell.swift; sourceTree = "<group>"; };
+		CB102F3A274BDC7400175A63 /* TagsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagsTableViewCell.xib; sourceTree = "<group>"; };
+		CB102F3D274BEF1F00175A63 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		CB102F3E274BEF1F00175A63 /* BaseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		CB102F41274BF76E00175A63 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
+		CB102F42274BF76F00175A63 /* SliderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderTableViewCell.xib; sourceTree = "<group>"; };
+		CB102F45274BF84200175A63 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		CBFE440227453C82000A6025 /* PDP-November.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDP-November.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFE440527453C82000A6025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBFE440727453C82000A6025 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +55,9 @@
 		CBFE440E27453C85000A6025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFE441127453C85000A6025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBFE441327453C85000A6025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFE44192745472B000A6025 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBFE441A2745472B000A6025 /* TopCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopCollectionViewCell.xib; sourceTree = "<group>"; };
+		CBFE441D2745592E000A6025 /* VenueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2DB8A93928FE784E9B525B /* Pods_PDP_November.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				CBFE440427453C82000A6025 /* PDP-November */,
 				CBFE440327453C82000A6025 /* Products */,
+				DFB3727F1039EDF296FE2606 /* Pods */,
+				F8A43BE216590C5A1279B034 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +96,44 @@
 				CBFE440527453C82000A6025 /* AppDelegate.swift */,
 				CBFE440727453C82000A6025 /* SceneDelegate.swift */,
 				CBFE440927453C82000A6025 /* ViewController.swift */,
+				CBFE441D2745592E000A6025 /* VenueModel.swift */,
+				CB102F2F2746976200175A63 /* CategoryModel.swift */,
 				CBFE440B27453C82000A6025 /* Main.storyboard */,
+				CB102F37274BCFC300175A63 /* PulleyViewController.swift */,
+				CB102F352746B96E00175A63 /* FilterViewController.swift */,
+				CB102F3D274BEF1F00175A63 /* BaseTableViewCell.swift */,
+				CB102F3E274BEF1F00175A63 /* BaseTableViewCell.xib */,
+				CB102F39274BDC7400175A63 /* TagsTableViewCell.swift */,
+				CB102F3A274BDC7400175A63 /* TagsTableViewCell.xib */,
+				CBFE44192745472B000A6025 /* TopCollectionViewCell.swift */,
+				CB102F2B2746952B00175A63 /* BottomCollectionViewCell.swift */,
+				CB102F41274BF76E00175A63 /* SliderTableViewCell.swift */,
+				CB102F42274BF76F00175A63 /* SliderTableViewCell.xib */,
+				CB102F45274BF84200175A63 /* CustomSlider.swift */,
+				CB102F2C2746952B00175A63 /* BottomCollectionViewCell.xib */,
+				CBFE441A2745472B000A6025 /* TopCollectionViewCell.xib */,
 				CBFE440E27453C85000A6025 /* Assets.xcassets */,
 				CBFE441027453C85000A6025 /* LaunchScreen.storyboard */,
 				CBFE441327453C85000A6025 /* Info.plist */,
 			);
 			path = "PDP-November";
+			sourceTree = "<group>";
+		};
+		DFB3727F1039EDF296FE2606 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F869287AF7DE204833DE09C /* Pods-PDP-November.debug.xcconfig */,
+				252057C6C5B982E48206F650 /* Pods-PDP-November.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8A43BE216590C5A1279B034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA5D6969A341A33E8AF19DE /* Pods_PDP_November.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBFE441627453C85000A6025 /* Build configuration list for PBXNativeTarget "PDP-November" */;
 			buildPhases = (
+				3897A4D15887BCBDE110DDF7 /* [CP] Check Pods Manifest.lock */,
 				CBFE43FE27453C82000A6025 /* Sources */,
 				CBFE43FF27453C82000A6025 /* Frameworks */,
 				CBFE440027453C82000A6025 /* Resources */,
+				C7FD40CCC0CEEBD9E1D4E928 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +196,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB102F40274BEF1F00175A63 /* BaseTableViewCell.xib in Resources */,
+				CBFE441C2745472B000A6025 /* TopCollectionViewCell.xib in Resources */,
 				CBFE441227453C85000A6025 /* LaunchScreen.storyboard in Resources */,
+				CB102F2E2746952B00175A63 /* BottomCollectionViewCell.xib in Resources */,
 				CBFE440F27453C85000A6025 /* Assets.xcassets in Resources */,
+				CB102F3C274BDC7400175A63 /* TagsTableViewCell.xib in Resources */,
+				CB102F44274BF76F00175A63 /* SliderTableViewCell.xib in Resources */,
 				CBFE440D27453C82000A6025 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3897A4D15887BCBDE110DDF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDP-November-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FD40CCC0CEEBD9E1D4E928 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDP-November/Pods-PDP-November-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDP-November/Pods-PDP-November-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDP-November/Pods-PDP-November-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBFE43FE27453C82000A6025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFE441B2745472B000A6025 /* TopCollectionViewCell.swift in Sources */,
+				CB102F38274BCFC300175A63 /* PulleyViewController.swift in Sources */,
+				CB102F3B274BDC7400175A63 /* TagsTableViewCell.swift in Sources */,
 				CBFE440A27453C82000A6025 /* ViewController.swift in Sources */,
+				CBFE441E2745592E000A6025 /* VenueModel.swift in Sources */,
+				CB102F3F274BEF1F00175A63 /* BaseTableViewCell.swift in Sources */,
+				CB102F362746B96E00175A63 /* FilterViewController.swift in Sources */,
+				CB102F2D2746952B00175A63 /* BottomCollectionViewCell.swift in Sources */,
+				CB102F302746976200175A63 /* CategoryModel.swift in Sources */,
 				CBFE440627453C82000A6025 /* AppDelegate.swift in Sources */,
+				CB102F46274BF84200175A63 /* CustomSlider.swift in Sources */,
+				CB102F43274BF76F00175A63 /* SliderTableViewCell.swift in Sources */,
 				CBFE440827453C82000A6025 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +412,7 @@
 		};
 		CBFE441727453C85000A6025 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F869287AF7DE204833DE09C /* Pods-PDP-November.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +440,7 @@
 		};
 		CBFE441827453C85000A6025 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252057C6C5B982E48206F650 /* Pods-PDP-November.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

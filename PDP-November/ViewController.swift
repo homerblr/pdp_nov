@@ -16,50 +16,48 @@ class ViewController: UIViewController, BaseView, PulleyPrimaryContentController
     @IBOutlet weak var filterButton: UIButton!
     @IBOutlet weak var searchBar: UISearchBar!
     
-
     private var drawerIsOpened: Bool = true
-    
     var presenter: MainPresenter = MainPresenterImplementation()
-    
-    private var viewModel = VenueViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.view = self
         presenter.viewDidLoad()
         configure()
-        
-        
-        //MVVM
-        viewModel.venueViewModel.bind { [weak self] _  in
-            DispatchQueue.main.async {
-                //self?.collectionView.reloadData()
-            }
-        }
-        fetchData()
     }
     
-    private func configure() {
-        topCollectionView.register(UINib(nibName: "TopCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "topCell")
-        bottomCollectionView.register(UINib(nibName: "BottomCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "bottomCell")
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        //        launchMVVM()
+        //        launchViper()
     }
-
-
+    
     @IBAction func showAllTapped(_ sender: UIButton) {
     }
     @IBAction func filterButtonTapped(_ sender: UIButton) {
         drawerIsOpened = !drawerIsOpened
         drawerIsOpened ? pulleyViewController?.setDrawerPosition(position: .closed, animated: true, completion: nil) : pulleyViewController?.setDrawerPosition(position: .partiallyRevealed, animated: true, completion: nil)
     }
+    
     func updateCollectionViews() {
         topCollectionView.reloadData()
         bottomCollectionView.reloadData()
     }
     
-    //MVVM
-    let mockData: [VenueModel] = []
-    func fetchData() {
-        viewModel.venueViewModel.value = mockData.map({VenueCollectionCellViewModel(name: $0.venueName, rating: String($0.venueRating), totalRating: String($0.totalVenueRatingCount))})
+    private func configure() {
+        topCollectionView.register(UINib(nibName: "TopCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "topCell")
+        bottomCollectionView.register(UINib(nibName: "BottomCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "bottomCell")
+    }
+    
+    private func launchViper() {
+        let userRouter = MainViperRouter.start()
+        let initialVC = (userRouter.entry)!
+        self.pulleyViewController?.setPrimaryContentViewController(controller: initialVC, animated: false)
+    }
+    
+    private func launchMVVM() {
+        let primaryContent = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "mvvmVC")
+        self.pulleyViewController?.setPrimaryContentViewController(controller: primaryContent, animated: false)
     }
 }
 
@@ -75,9 +73,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
             cell.image.image = presenter.getVenueImage(index: indexPath.row)
             cell.rating.text = presenter.getVenueRating(index: indexPath.row)
             cell.totalRates.text = presenter.getVenueRatingCounts(index: indexPath.row)
-            
-            //MVVM
-            //cell.venueName = viewModel.venueViewModel.value[indexPath.row].name
             return cell
         } else {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "bottomCell", for: indexPath) as? BottomCollectionViewCell else { return UICollectionViewCell() }
@@ -86,7 +81,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
             cell.imageView.image = presenter.getCategoryImage(index: indexPath.row)
             return cell
         }
-       
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

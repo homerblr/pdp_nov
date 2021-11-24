@@ -11,21 +11,25 @@ protocol AnyPresenter {
     var router: AnyRouter? { get set }
     var interactor: AnyInteractor? { get set }
     var view: ViperView? { get set }
-    func interactorDidFetchData(data: [VenueModel])
+    func interactorDidFetchVenueData(data: [VenueEntity])
+    func interactorDidFetchCategoryData(data: [CategoryEntity])
 }
 
 class ViperMainPresenter: AnyPresenter {
     var router: AnyRouter?
     
-    var interactor: AnyInteractor?
+    var interactor: AnyInteractor? {
+        didSet {
+            interactor?.getData()
+        }
+    }
     
     var view: ViperView?
     
-    init(){
-        interactor?.getData()
+    func interactorDidFetchVenueData(data: [VenueEntity]) {
+        view?.update(with: data)
     }
-    
-    func interactorDidFetchData(data: [VenueModel]) {
-        view?.updateCollectionViews()
+    func interactorDidFetchCategoryData(data: [CategoryEntity]) {
+        view?.update(with: data)
     }
 }

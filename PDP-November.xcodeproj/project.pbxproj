@@ -22,6 +22,7 @@
 		CB102F46274BF84200175A63 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102F45274BF84200175A63 /* CustomSlider.swift */; };
 		CBC4FDD4274D644300DDD2A9 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4FDD3274D644300DDD2A9 /* Binding.swift */; };
 		CBC4FDD6274D64A100DDD2A9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4FDD5274D64A100DDD2A9 /* ViewModel.swift */; };
+		CBC4FDD9274D8DCA00DDD2A9 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4FDD8274D8DCA00DDD2A9 /* MVVMViewController.swift */; };
 		CBC7BCF4274D2523007F5869 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BCF3274D2523007F5869 /* FilterView.swift */; };
 		CBC7BCF6274D2642007F5869 /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BCF5274D2642007F5869 /* FilterPresenter.swift */; };
 		CBC7BCF8274D27D8007F5869 /* FilterPresenterImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7BCF7274D27D8007F5869 /* FilterPresenterImplementation.swift */; };
@@ -64,6 +65,7 @@
 		CB102F45274BF84200175A63 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		CBC4FDD3274D644300DDD2A9 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		CBC4FDD5274D64A100DDD2A9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CBC4FDD8274D8DCA00DDD2A9 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 		CBC7BCF3274D2523007F5869 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		CBC7BCF5274D2642007F5869 /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
 		CBC7BCF7274D27D8007F5869 /* FilterPresenterImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenterImplementation.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				CBC4FDD3274D644300DDD2A9 /* Binding.swift */,
 				CBC4FDD5274D64A100DDD2A9 /* ViewModel.swift */,
+				CBC4FDD8274D8DCA00DDD2A9 /* MVVMViewController.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				CBC7BCF4274D2523007F5869 /* FilterView.swift in Sources */,
 				CBFE441B2745472B000A6025 /* TopCollectionViewCell.swift in Sources */,
 				CBC7BCF8274D27D8007F5869 /* FilterPresenterImplementation.swift in Sources */,
+				CBC4FDD9274D8DCA00DDD2A9 /* MVVMViewController.swift in Sources */,
 				CBC7BD09274D358C007F5869 /* MainPresenterImplementation.swift in Sources */,
 				CBC4FDD4274D644300DDD2A9 /* Binding.swift in Sources */,
 				CBC7BD15274D4BF8007F5869 /* Router.swift in Sources */,

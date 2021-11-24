@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Pulley
 
 class PulleyViewController: UIViewController {
     @IBOutlet weak var primaryContentContainerView: UIView!
@@ -13,8 +14,6 @@ class PulleyViewController: UIViewController {
     @IBOutlet weak var drawerContentContainerView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
 

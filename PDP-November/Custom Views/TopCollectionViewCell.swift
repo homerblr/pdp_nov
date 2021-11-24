@@ -22,12 +22,5 @@ class TopCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     
-    func configure(image: UIImage, venueName: String, address: String, rating: Double, totalRates: Int) {
-        self.image.image = image
-        self.venueName.text = venueName
-        self.adress.text = address
-        self.rating.text = String(rating)
-        self.totalRates.text =  "(\(totalRates) ratings)"
-    }
 
 }

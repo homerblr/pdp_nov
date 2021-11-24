@@ -20,11 +20,6 @@ class BottomCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     
-    func configure(image: UIImage, categoryName: String, numberOfPlaces: Int) {
-        self.imageView.image = image
-        self.foodTypeLabel.text = categoryName
-        self.numberOfPlacesLabel.text = "\(numberOfPlaces) places"
-    }
 
 }
 
